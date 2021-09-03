@@ -35,23 +35,104 @@
         <FactMapping>
           <expressionElements>
             <ExpressionElement>
-              <step>Driver</step>
+              <step>Age</step>
             </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|1</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Age</name>
+            <className>Age</className>
+          </factIdentifier>
+          <className>number</className>
+          <factAlias>Age</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <genericTypes/>
+          <columnWidth>114</columnWidth>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
             <ExpressionElement>
-              <step>Points</step>
+              <step>Annual mileage</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|2</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Annual mileage</name>
+            <className>Annual mileage</className>
+          </factIdentifier>
+          <className>Annual mileage</className>
+          <factAlias>Annual mileage</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <genericTypes/>
+          <columnWidth>114</columnWidth>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>Grade</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|3</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Grade</name>
+            <className>Grade</className>
+          </factIdentifier>
+          <className>Grade</className>
+          <factAlias>Grade</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <genericTypes/>
+          <columnWidth>114</columnWidth>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>Licence</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|4</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Licence</name>
+            <className>Licence</className>
+          </factIdentifier>
+          <className>Licence</className>
+          <factAlias>Licence</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <genericTypes/>
+          <columnWidth>114</columnWidth>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>Base insurance premium</step>
             </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
             <name>1|5</name>
-            <type>GIVEN</type>
+            <type>EXPECT</type>
           </expressionIdentifier>
           <factIdentifier>
-            <name>Driver</name>
-            <className>Driver</className>
+            <name>Base insurance premium</name>
+            <className>Base insurance premium</className>
           </factIdentifier>
           <className>number</className>
-          <factAlias>Driver</factAlias>
-          <expressionAlias>Points</expressionAlias>
+          <factAlias>Base insurance premium</factAlias>
+          <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <columnWidth>114</columnWidth>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
@@ -59,23 +140,61 @@
         <FactMapping>
           <expressionElements>
             <ExpressionElement>
-              <step>Violation</step>
+              <step>Discounted premium</step>
             </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1630649589382</name>
+            <type>EXPECT</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Discounted premium</name>
+            <className>Discounted premium</className>
+          </factIdentifier>
+          <className>number</className>
+          <factAlias>Discounted premium</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <columnWidth>114</columnWidth>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
             <ExpressionElement>
-              <step>Type</step>
+              <step>grade discount rate</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|7</name>
+            <type>EXPECT</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>grade discount rate</name>
+            <className>grade discount rate</className>
+          </factIdentifier>
+          <className>number</className>
+          <factAlias>grade discount rate</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <genericTypes/>
+          <columnWidth>114</columnWidth>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>licence discount rate</step>
             </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
             <name>1|8</name>
-            <type>GIVEN</type>
+            <type>EXPECT</type>
           </expressionIdentifier>
           <factIdentifier>
-            <name>Violation</name>
-            <className>Violation</className>
+            <name>licence discount rate</name>
+            <className>licence discount rate</className>
           </factIdentifier>
-          <className>Type</className>
-          <factAlias>Violation</factAlias>
-          <expressionAlias>Type</expressionAlias>
+          <className>number</className>
+          <factAlias>licence discount rate</factAlias>
+          <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <columnWidth>114</columnWidth>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
@@ -83,115 +202,19 @@
         <FactMapping>
           <expressionElements>
             <ExpressionElement>
-              <step>Violation</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>Speed Limit</step>
+              <step>mileage discount rate</step>
             </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
             <name>1|9</name>
-            <type>GIVEN</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>Violation</name>
-            <className>Violation</className>
-          </factIdentifier>
-          <className>number</className>
-          <factAlias>Violation</factAlias>
-          <expressionAlias>Speed Limit</expressionAlias>
-          <genericTypes/>
-          <columnWidth>114</columnWidth>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>Violation</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>Actual Speed</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|10</name>
-            <type>GIVEN</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>Violation</name>
-            <className>Violation</className>
-          </factIdentifier>
-          <className>number</className>
-          <factAlias>Violation</factAlias>
-          <expressionAlias>Actual Speed</expressionAlias>
-          <genericTypes/>
-          <columnWidth>114</columnWidth>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>Fine</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>Amount</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|11</name>
             <type>EXPECT</type>
           </expressionIdentifier>
           <factIdentifier>
-            <name>Fine</name>
-            <className>Fine</className>
+            <name>mileage discount rate</name>
+            <className>mileage discount rate</className>
           </factIdentifier>
           <className>number</className>
-          <factAlias>Fine</factAlias>
-          <expressionAlias>Amount</expressionAlias>
-          <genericTypes/>
-          <columnWidth>114</columnWidth>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>Fine</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>Points</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|12</name>
-            <type>EXPECT</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>Fine</name>
-            <className>Fine</className>
-          </factIdentifier>
-          <className>number</className>
-          <factAlias>Fine</factAlias>
-          <expressionAlias>Points</expressionAlias>
-          <genericTypes/>
-          <columnWidth>114</columnWidth>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>Should the driver be suspended?</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|13</name>
-            <type>EXPECT</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>Should the driver be suspended?</name>
-            <className>Should the driver be suspended?</className>
-          </factIdentifier>
-          <className>string</className>
-          <factAlias>Should the driver be suspended?</factAlias>
+          <factAlias>mileage discount rate</factAlias>
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <columnWidth>114</columnWidth>
@@ -211,84 +234,95 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">Above speed limit: 10km/h and 30 km/h</rawValue>
+            <rawValue class="string">case1</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Driver</name>
-              <className>Driver</className>
+              <name>Age</name>
+              <className>Age</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|1</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">50</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Annual mileage</name>
+              <className>Annual mileage</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|2</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">6000</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Grade</name>
+              <className>Grade</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|3</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">"7"</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Licence</name>
+              <className>Licence</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|4</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">"Gold"</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Base insurance premium</name>
+              <className>Base insurance premium</className>
             </factIdentifier>
             <expressionIdentifier>
               <name>1|5</name>
-              <type>GIVEN</type>
+              <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">10</rawValue>
+            <rawValue class="string">32000</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Violation</name>
-              <className>Violation</className>
+              <name>grade discount rate</name>
+              <className>grade discount rate</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|7</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">-0.30</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>licence discount rate</name>
+              <className>licence discount rate</className>
             </factIdentifier>
             <expressionIdentifier>
               <name>1|8</name>
-              <type>GIVEN</type>
+              <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">"speed"</rawValue>
+            <rawValue class="string">-0.11</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Violation</name>
-              <className>Violation</className>
+              <name>mileage discount rate</name>
+              <className>mileage discount rate</className>
             </factIdentifier>
             <expressionIdentifier>
               <name>1|9</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">100</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Violation</name>
-              <className>Violation</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|10</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">120</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Fine</name>
-              <className>Fine</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|11</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">1000</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Fine</name>
-              <className>Fine</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|12</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">7</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Should the driver be suspended?</name>
-              <className>Should the driver be suspended?</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|13</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">"No"</rawValue>
+            <rawValue class="string">-0.12</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -300,6 +334,17 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">1</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Discounted premium</name>
+              <className>Discounted premium</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1630649589382</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">17543.68</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -314,84 +359,95 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">Above speed limit: more than 30 km/h</rawValue>
+            <rawValue class="string">case2</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Driver</name>
-              <className>Driver</className>
+              <name>Age</name>
+              <className>Age</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|1</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">25</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Annual mileage</name>
+              <className>Annual mileage</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|2</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">10000</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Grade</name>
+              <className>Grade</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|3</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">"5"</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Licence</name>
+              <className>Licence</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|4</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">"Blue"</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Base insurance premium</name>
+              <className>Base insurance premium</className>
             </factIdentifier>
             <expressionIdentifier>
               <name>1|5</name>
-              <type>GIVEN</type>
+              <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">10</rawValue>
+            <rawValue class="string">42000</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Violation</name>
-              <className>Violation</className>
+              <name>grade discount rate</name>
+              <className>grade discount rate</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|7</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">-0.13</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>licence discount rate</name>
+              <className>licence discount rate</className>
             </factIdentifier>
             <expressionIdentifier>
               <name>1|8</name>
-              <type>GIVEN</type>
+              <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">"speed"</rawValue>
+            <rawValue class="string">0</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Violation</name>
-              <className>Violation</className>
+              <name>mileage discount rate</name>
+              <className>mileage discount rate</className>
             </factIdentifier>
             <expressionIdentifier>
               <name>1|9</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">100</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Violation</name>
-              <className>Violation</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|10</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">150</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Fine</name>
-              <className>Fine</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|11</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">5000</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Fine</name>
-              <className>Fine</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|12</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">10</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Should the driver be suspended?</name>
-              <className>Should the driver be suspended?</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|13</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">"Yes"</rawValue>
+            <rawValue class="string">-0.06</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -404,6 +460,17 @@
             </expressionIdentifier>
             <rawValue class="string">2</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Discounted premium</name>
+              <className>Discounted premium</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1630649589382</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">34347.60</rawValue>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -417,82 +484,95 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">Parking violation</rawValue>
+            <rawValue class="string">case3</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Driver</name>
-              <className>Driver</className>
+              <name>Age</name>
+              <className>Age</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|1</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">40</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Annual mileage</name>
+              <className>Annual mileage</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|2</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">15000</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Grade</name>
+              <className>Grade</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|3</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">"13"</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Licence</name>
+              <className>Licence</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|4</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">"Gold"</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Base insurance premium</name>
+              <className>Base insurance premium</className>
             </factIdentifier>
             <expressionIdentifier>
               <name>1|5</name>
-              <type>GIVEN</type>
+              <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">10</rawValue>
+            <rawValue class="string">35000</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Violation</name>
-              <className>Violation</className>
+              <name>grade discount rate</name>
+              <className>grade discount rate</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|7</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">-0.49</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>licence discount rate</name>
+              <className>licence discount rate</className>
             </factIdentifier>
             <expressionIdentifier>
               <name>1|8</name>
-              <type>GIVEN</type>
+              <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">"parking"</rawValue>
+            <rawValue class="string">-0.11</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Violation</name>
-              <className>Violation</className>
+              <name>mileage discount rate</name>
+              <className>mileage discount rate</className>
             </factIdentifier>
             <expressionIdentifier>
               <name>1|9</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Violation</name>
-              <className>Violation</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|10</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Fine</name>
-              <className>Fine</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|11</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">100</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Fine</name>
-              <className>Fine</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|12</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">1</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Should the driver be suspended?</name>
-              <className>Should the driver be suspended?</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|13</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">"No"</rawValue>
+            <rawValue class="string">0</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -505,6 +585,17 @@
             </expressionIdentifier>
             <rawValue class="string">3</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Discounted premium</name>
+              <className>Discounted premium</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1630649589382</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">15886.50</rawValue>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -518,82 +609,95 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
-            <rawValue class="string">DUI violation</rawValue>
+            <rawValue class="string">case4</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Driver</name>
-              <className>Driver</className>
+              <name>Age</name>
+              <className>Age</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|1</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">63</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Annual mileage</name>
+              <className>Annual mileage</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|2</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">2000</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Grade</name>
+              <className>Grade</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|3</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">"20"</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Licence</name>
+              <className>Licence</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|4</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">"Gold"</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Base insurance premium</name>
+              <className>Base insurance premium</className>
             </factIdentifier>
             <expressionIdentifier>
               <name>1|5</name>
-              <type>GIVEN</type>
+              <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">10</rawValue>
+            <rawValue class="string">36000</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Violation</name>
-              <className>Violation</className>
+              <name>grade discount rate</name>
+              <className>grade discount rate</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|7</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">-0.63</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>licence discount rate</name>
+              <className>licence discount rate</className>
             </factIdentifier>
             <expressionIdentifier>
               <name>1|8</name>
-              <type>GIVEN</type>
+              <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">"driving under the influence"</rawValue>
+            <rawValue class="string">-0.11</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Violation</name>
-              <className>Violation</className>
+              <name>mileage discount rate</name>
+              <className>mileage discount rate</className>
             </factIdentifier>
             <expressionIdentifier>
               <name>1|9</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Violation</name>
-              <className>Violation</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|10</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Fine</name>
-              <className>Fine</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|11</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">1000</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Fine</name>
-              <className>Fine</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|12</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">5</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Should the driver be suspended?</name>
-              <className>Should the driver be suspended?</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|13</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">"No"</rawValue>
+            <rawValue class="string">-0.24</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -606,108 +710,16 @@
             </expressionIdentifier>
             <rawValue class="string">4</rawValue>
           </FactMappingValue>
-        </factMappingValues>
-      </Scenario>
-      <Scenario>
-        <factMappingValues>
           <FactMappingValue>
             <factIdentifier>
-              <name>Scenario description</name>
-              <className>java.lang.String</className>
+              <name>Discounted premium</name>
+              <className>Discounted premium</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>Description</name>
-              <type>OTHER</type>
-            </expressionIdentifier>
-            <rawValue class="string">Driver suspended</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Driver</name>
-              <className>Driver</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|5</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">15</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Violation</name>
-              <className>Violation</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|8</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">"speed"</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Violation</name>
-              <className>Violation</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|9</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">100</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Violation</name>
-              <className>Violation</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|10</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">140</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Fine</name>
-              <className>Fine</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|11</name>
+              <name>1630649589382</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">5000</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Fine</name>
-              <className>Fine</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|12</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">10</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Should the driver be suspended?</name>
-              <className>Should the driver be suspended?</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|13</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">"Yes"</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>#</name>
-              <className>java.lang.Integer</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>Index</name>
-              <type>OTHER</type>
-            </expressionIdentifier>
-            <rawValue class="string">5</rawValue>
+            <rawValue class="string">9009.648</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -752,10 +764,10 @@
     </scesimData>
   </background>
   <settings>
-    <dmnFilePath>src/main/resources/com/redhat/demos/dmn/Traffic Violation.dmn</dmnFilePath>
+    <dmnFilePath>decisions-showcase/src/main/resources/com/redhat/demos/dmn/car-insurance-premium.dmn</dmnFilePath>
     <type>DMN</type>
-    <dmnNamespace>https://github.com/kiegroup/drools/kie-dmn/_A4BCA8B8-CF08-433F-93B2-A2598F19ECFF</dmnNamespace>
-    <dmnName>Traffic Violation</dmnName>
+    <dmnNamespace>https://kiegroup.org/dmn/_43AB6E7A-C63F-44CC-B8C9-8C4224E32F2E</dmnNamespace>
+    <dmnName>car-insurance-premium</dmnName>
     <skipFromBuild>false</skipFromBuild>
     <stateless>false</stateless>
   </settings>
