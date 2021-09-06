@@ -300,7 +300,7 @@
               <name>1|7</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">-0.30</rawValue>
+            <rawValue class="string">-0.35</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -344,7 +344,7 @@
               <name>1630649589382</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">17543.68</rawValue>
+            <rawValue class="string">16290.56</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -741,7 +741,7 @@
           <className>java.lang.Void</className>
           <factAlias>INSTANCE 1</factAlias>
           <expressionAlias>PROPERTY 1</expressionAlias>
-          <columnWidth>114</columnWidth>
+          <columnWidth>1507</columnWidth>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
         </FactMapping>
       </factMappings>
